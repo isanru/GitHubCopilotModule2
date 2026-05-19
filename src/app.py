@@ -124,4 +124,3 @@ def unregister_from_activity(activity_name: str, email: str):
     # Remove student
     activity["participants"].remove(email)
     return {"message": f"Unregistered {email} from {activity_name}"}
-    return {"message": f"Signed up {email} for {activity_name}"}
